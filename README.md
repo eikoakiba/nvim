@@ -1,0 +1,3 @@
+# 💤 LazyVim
+
+My Neovim configuration :)
