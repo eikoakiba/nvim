@@ -3,5 +3,7 @@
 -- Add any additional keymaps here
 
 -- -- Mey keymaps is here
--- local map = LazyVim.safe_keymap_set
+local map = LazyVim.safe_keymap_set
 -- map("n", "<Space><Space>", "<cmd>Telescope find_files<cr>")
+
+map("t", "<Esc>", "<C-\\><C-n>")
