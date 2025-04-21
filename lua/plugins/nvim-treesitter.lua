@@ -34,5 +34,8 @@ return {
             "typescript",
          })
       end,
+      config = function()
+         require("nvim-treesitter.install").prefer_git = true
+      end,
    },
 }

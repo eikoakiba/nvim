@@ -8,6 +8,11 @@ return {
             "shellcheck",
             "shfmt",
             "flake8",
+            "clangd",
+            -- "gopls",  commented bacuse it need some good internet for first download
+            -- "golines", ~
+            -- "gofumpt", ~
+            "rust-analyzer",
          },
       },
    },

@@ -1,15 +1,15 @@
 return {
-   {
-      "neovim/nvim-lspconfig",
-      ---@class PluginLspOpts
-      opts = {
-         ---@type lspconfig.options
-         servers = {
-            -- pyright will be automatically installed with mason and loaded with lspconfig
-            pyright = {},
-         },
-      },
-   },
+   -- {
+   --    "neovim/nvim-lspconfig",
+   --    ---@class PluginLspOpts
+   --    opts = {
+   --       ---@type lspconfig.options
+   --       servers = {
+   --          -- pyright will be automatically installed with mason and loaded with lspconfig
+   --          pyright = {},
+   --       },
+   --    },
+   -- },
 
    -- add tsserver and setup with typescript.nvim instead of lspconfig
    {
@@ -35,7 +35,7 @@ return {
                   "clangd",
                   "--background-index",
                   "--clang-tidy",
-                  "--neader-insertion=iwyu",
+                  "--header-insertion=iwyu",
                   "--completion-style=detailed",
                   "--function-arg-placeholders",
                   "--fallback-style=llvm",
